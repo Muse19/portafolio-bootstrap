@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.bg-primary {
+  background-color: #088A08 !important; }
+
+.text-primary {
+  color: #088A08 !important; }
+
+.btn-primary {
+  background-color: #088A08 !important;
+  border-color: #022a02 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #055a05 !important; }
+
+.btn-primary:active {
+  background-color: #022a02 !important;
+  border-color: black !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(8, 138, 8, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(8, 138, 8, 0.5) !important; }
+
+/*-------------------- 
+   Estilos del diseño
+--------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=styles.css.map */

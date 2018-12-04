@@ -1,0 +1,61 @@
+//-----------------------------------//
+//         PATRON DE COLORES         //
+//-----------------------------------//
+$texto: #44484a;
+$primario: #088A08;
+
+
+.bg-primary {
+	background-color: $primario !important;
+}
+
+.text-primary {
+	color: $primario !important;
+}
+
+.btn-primary {
+	background-color: $primario !important;
+	border-color: darken($primario, 20%) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: darken($primario, 10%) !important;
+} 
+
+.btn-primary:active{
+	background-color: darken($primario, 20%) !important;
+	border-color: darken($primario, 30%) !important;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 0 0.2rem rgba($primario, .5) !important;
+} 
+
+
+
+/*-------------------- 
+   Estilos del diseño
+--------------------*/
+
+html{
+	font-size: 13px;
+}
+body{
+	color: $texto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover {
+	box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+
+@media (min-width: 768px){
+	html{
+		font-size: 16px;	
+	}
+
+}
